@@ -43,5 +43,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "protobufjs@7.6.6": true
   }
 }
