@@ -1,6 +1,6 @@
 {
   "name": "@commonkads/provider-google",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Google Gemini provider implementation for the CommonKADS engine",
   "type": "module",
   "author": "Rob Proper",
@@ -31,7 +31,7 @@
     "release": "npm publish"
   },
   "dependencies": {
-    "@commonkads/engine": "^0.1.0",
+    "@commonkads/engine": "^0.2.0",
     "@google/genai": "^2.31.0"
   },
   "devDependencies": {
