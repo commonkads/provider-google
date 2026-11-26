@@ -6,7 +6,7 @@ export type { GeminiTextInferenceOptions } from "./gemini.js";
 
 export interface GeminiProviderOptions {
   type: "gemini";
-  model: string;
+  model?: string;
   apiKey?: string;
   thinking?: boolean;
 }
