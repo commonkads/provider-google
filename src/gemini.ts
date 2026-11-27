@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 
 import type {
   InferenceOptions,
-  IInferenceProvider,
+  InferenceProvider,
   ProviderFileConfig,
 } from "@commonkads/engine";
 import {
@@ -28,8 +28,8 @@ export interface GeminiTextInferenceOptions {
   client?: GoogleGenAI;
 }
 
-/** `IInferenceProvider` backed by the Gemini API. */
-export class GeminiTextInference implements IInferenceProvider {
+/** `InferenceProvider` backed by the Gemini API. */
+export class GeminiTextInference implements InferenceProvider {
   private readonly client: GoogleGenAI;
   private readonly modelId: string;
 
